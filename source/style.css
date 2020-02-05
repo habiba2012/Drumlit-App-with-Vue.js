@@ -1,0 +1,70 @@
+.crash {
+    width: 100px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.kick {
+    width: 80px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+.snare {
+    width: 80px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+.tom1 {
+    width: 80px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+.tom2 {
+    width: 80px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+.tom3 {
+    width: 80px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+.tom4 {
+    width: 80px;
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+.logo {
+    margin-bottom: 50px;
+    height: 100px;
+    width: 70px;
+}
+
+h2 {
+    float: right;
+    margin-right: 800px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#InsName {
+    color: darkred;
+    font-weight: bold;
+}
+
+#center {
+    margin-left: 450px;
+}
