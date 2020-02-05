@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drumkit</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <link rel="stylesheet" href="source/style.css">
+
+</head>
+
+<body>
+    <div id="app">
+        <img alt="vue logo" class="logo" src="source/vueLogo.png">
+        <h2>{{msg}}</h2>
+        <div id="center">
+            <input v-model="lyric" placeholder="edit me">
+            <h3>App developed by: {{name}}</h3>
+            <p>Lyric's : {{ lyric }}</p>
+            <div v-if="drumKit">
+                <p>Now Playing<span id="InsName">{{title}}</span></p>
+            </div>
+        </div>
+        <div class="center">
+            <img @click="crash()" @keydown="drum" src="Drum Kit Starting Files/images/crash.png" class="crash">
+            <img @click="kickBass()" src="Drum Kit Starting Files/images/kick.png" class="kick">
+            <img @click="snare()" src="Drum Kit Starting Files/images/snare.png" class="snare">
+            <img @click="tom1()" src="Drum Kit Starting Files/images/tom1.png" class="tom1">
+            <img @click="tom2()" src="Drum Kit Starting Files/images/tom2.png" class="tom2">
+            <img @click="tom3()" src="Drum Kit Starting Files/images/tom3.png" class="tom3">
+            <img @click="tom4()" src="Drum Kit Starting Files/images/tom4.png" class="tom4">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
